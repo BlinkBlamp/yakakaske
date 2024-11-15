@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+header {
+    padding: 20px calc(50% - 600px);
+    background-color: rgb(74, 143, 113);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+  
+a.vtuber {
+    font-size: 79px;
+} 
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+.aboba{
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 400px; */
+    color: white;
+    /* width: 50%; */
+    display: flex;
+    justify-content: center;
+  }
+
+.autism{
+    margin: 15px;
+    background-color: #589394;
+    width: 45%;
+    padding: 15px;
+    border: 1px;
+    border-radius: 15px;
+    max-width: 400px;
+  }
+
+  .zalupa{
+    margin: 15px;
+    background-color: #589394;
+    width: 100%;
+    height: 670px;
+    border: 1px;
+    border-radius: 15px;
+  
+  }
+
+  .gavno {
+    /* margin-left: 19%; */
+    margin-right: auto;
+    background-color: #989998;
+    width: 100%;
+    height: 54%;
+    border-radius: 12px;
+  }
+
+.rust { 
+    position: relative;
+    color : white;
+    
+  }
+
+  .nebegau {
+    background-color: hsl(0, 0%, 0%);
+    width: 100%;
+    height: 100%;
+    margin-bottom: 15px;
+    border-radius: 12px;
+  }
+
+  @media (max-width: 800px) {
+    body{
+        background-color: red
+        
+    }
+  };
+
+  a.vtuber {
+    font-size: 79px;
+}
